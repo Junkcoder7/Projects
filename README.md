@@ -10,6 +10,6 @@ If you have any feedback, please reach out to me at praminktwl7@gmail.com
 
 ## License
 
-[MIT](LICENSE)
+[LICENSE](LICENSE)
 
 
