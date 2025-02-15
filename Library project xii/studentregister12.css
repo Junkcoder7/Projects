@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+.navbar{
+    background: #240c3b;
+    padding-right:15px;
+    padding-left: 15px;
+    height: 60px;
+    width: 100%;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: antiquewhite;
+    margin: 8px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+nav ul li:hover{
+transform: scale(1.5);
+}
+ nav ul li a:hover{
+    color: rgb(10, 137, 156);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+section div{
+width: 40%;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+}
+.right{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: #eee;
+}
+.right form{
+    height: 94%;
+    width: 60%;
+    padding: 20px;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px;
+    background: #fff;
+    text-align: center;
+}
+.right form h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    color: #333;
+}
+.right label{
+    font-size: 20px;
+}
+.right form input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 24px;
+    font-size: 20px;
+    margin: 2px 0 4px;
+    background: #eee;
+}
+.right form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
